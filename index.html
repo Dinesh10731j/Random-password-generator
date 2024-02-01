@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="./public/style.css">
+    <script src="https://kit.fontawesome.com/8c954f3ba6.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+  
+
+    <main>
+
+        <section id="container">
+            <section id="heading">
+                <h1>Random Password Generator</h1>
+            </section>
+
+           
+            <section id="password-display-section">
+               
+                <span id="display-password">0</span>
+                <i class="fa-solid fa-copy"></i>
+        </section>
+        <section  id="password-length">
+            <label>Password Length</label>
+            <input type="number" id="length" value="0">
+        </section>
+        
+
+        <section id="lowercase">
+            <label>Lowercase</label>
+            <input type="checkbox" id="include-lowercase">
+
+        </section>
+
+        <section id="Uppercase">
+            <label>Uppercase</label>
+            <input type="checkbox" id="include-uppercase">
+
+        </section>
+
+        <section id="Number">
+            <label>Number</label>
+            <input type="checkbox" id="include-number">
+
+        </section>
+
+        <section id="Symbol">
+            <label>Symbol</label>
+            <input type="checkbox" id="include-symbol">
+
+        </section>
+
+        <section id="generate-btn">
+            <button id="generate-password">Generate Password</button>
+        </section>
+        
+        
+        </section>
+    </main>
+ 
+    <script src="./public/script.js"></script>
+</body>
+
+</html>
